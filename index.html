@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	<!-- font awesome CSS -->
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+	<title>My Portfolio!</title>
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Noto+Sans+KR&family=Varela+Round&display=swap" rel="stylesheet">
+		
+	<!-- Custom styles CSS -->
+	<link href="css/style.css" rel="stylesheet" media="screen">
+	
+</head>
+
+<body>
+
+<!------------------------------------------------
+		1. トップビジュアル
+		2. ナビバー
+		3. Message
+		4. About
+		5. Works（portfolio）
+		6. Service
+		7. Price
+		8. Contact
+		9. Footer
+-------------------------------------------------->
+
+<!------------------------------------------------
+	* 1. トップビジュアル
+-------------------------------------------------->
+	<!-- トップ問題①「idをつける」-->
+		<section id="top">
+			<!-- トップ問題①「classをつける」 -->
+			<div class="top-item">
+				<!-- ↓↓↓トップ問題②「imgタグ、pタグを作る」↓↓↓-->
+				<img src="../images/logo.png" alt="ヘッダーロゴ">
+				<p class="top-item_sub">Welcome My Portfolio Site!<br>あなたと繋がる、楽しいWeb制作を。</p>
+				<!-- ↑↑↑トップ問題②「imgタグ、pタグを作る」↓↓↓-->
+			</div>
+			<!-- 動くマウスの記述 -->
+			<div class="mouse-icon">
+				<div class="wheel"></div>
+			</div>
+		</section>
+
+<!------------------------------------------------
+	* 2. ナビバー
+-------------------------------------------------->
+
+	<header class="sticky-top">
+
+		<!-- ↓↓↓この中にBootstrapのナビをコピペ↓↓↓ -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light"">
+			<div class="container">
+			 <h1>
+				<a class="navbar-brand" href="#">SAMPLE</a>
+			 </h1>
+			 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+				<span class="navbar-toggler-icon"></span>
+			 </button>
+			 <div class="collapse navbar-collapse" id="Navbar">
+				<ul class="nav nav-pills flex-column flex-lg-row ml-auto">
+			 <li class="nav-item"><a class="nav-link" href="#top">home</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#service">service</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#price">price</a></li>
+			 <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+				</ul>
+			 </div>
+			</div>
+		 </nav>
+		<!-- ↑↑↑この中にBootstrapのナビをコピペ ↑↑↑-->
+		
+	</header>
+
+	<main>
+
+<!------------------------------------------------
+	* 3. Message
+-------------------------------------------------->
+		<section id="message" class="module" >
+			<div class="container text-center my-5">
+				<!-- ↓↓↓この中にmodule__headerを記述↓↓↓ -->
+					<div class="module__header">
+						<h2 class="module__title">
+							Message
+							<span>Message</span>
+						</h2>
+						<div class="module__line"></div>
+					</div>
+				<!-- ↑↑↑この中にmodule__headerを記述↑↑↑-->
+				<p class="mt-4">
+					初めまして。りんと申します。<br>
+					WEB系フリーランスエンジニアを目指して<br>
+					日々積み上げ活動しています。
+				</p>
+				<p class="mt-4">
+					趣味は読書、筋トレ、アニメ鑑賞です！<br>
+					得意なことは節約です！
+				</p>
+				<p class="mt-4">
+					作業を効率化し<br>
+					あなたとのコミュニケーションを増やすことで<br>
+				</p>
+				<p class="mt-4">
+					思い描いた通りの<br>
+					理想のホームページを作る<br>
+					お手伝いをいたします。
+				</p>
+			</div><!-- .container -->
+		</section>
+		
+
+<!------------------------------------------------
+	* 4. About
+-------------------------------------------------->
+		<section id="about" class="module" style="margin-top: -80px;">
+
+			<!-- ↓↓↓グリッドレイアウトを使って組み立てる↓↓↓ -->
+			<div class="row">
+				<div class="col-lg-6 about-box__img"></div>
+
+				<div class="col-lg-6 about-box__text">
+					<div class="module__header">
+						<h2 class="module__title">
+							About me
+							<span>About</span>
+						</h2>
+						<div class="module__line"></div>
+					</div>
+					
+					<section class="about-item">
+						<div class="about-item__icon">
+							<i class="fas fa-user-circle"></i>
+						</div>
+						<div class="about-item__box">
+							<h3 class="about-item__title">名前 <a href="https://twitter.com/Rin0277">@Twitter</a></h3>
+							<p class="about-item__desc">
+								福岡県、北九州市在住。
+							</p>
+							<p class="about-item__desc">
+								趣味は読書、筋トレ、アニメ鑑賞です。
+								たまに旅行に行って美味しいものを食べることも好きです。
+							</p>
+						</div>
+					</section>
+
+					<section class="about-item">
+						<div class="about-item__icon">
+							<i class="fas fa-paint-brush"></i>
+						</div>
+						<div class="about-item__box">
+							<h3 class="about-item__title">Status</h3>
+							<ul class="about-item__desc pl-0 list-unstyled">
+								<li><i class="fas fa-check-square mr-2"></i>福岡県出身。31歳</li>
+								<li><i class="fas fa-check-square mr-2"></i>現在の活動拠点は、福岡県北九州市。</li>
+								<li><i class="fas fa-check-square mr-2"></i>ブログ「<a href="https://rin-blog-life.net/">りんChallengeライフ</a>」を運営中</li>
+							</ul> 
+						</div>
+					</section>
+					
+				</div>
+			</div>
+			<!-- ↑↑↑グリッドレイアウトを使って組み立てる↑↑↑ -->
+		</section>
+
+
+<!------------------------------------------------
+	* 5. Works（portfolio）
+-------------------------------------------------->
+<section id="portfolio" class="module">
+	<div class="container">
+		<div class="module__header">
+			<h2 class="module__title">
+				My Works
+				<span>Portfolio</span>
+			</h2>
+			<div class="module__line"></div>
+		</div>
+		
+		<div class="row justify-content-center">
+			
+			<section class="col-lg-4 mt-3">
+				<a href="">
+					<div class="works-item">
+						<img src="../images/works_01.jpg" alt="シンプルな">
+						<div class="works-item__overlay">
+							<div class="works-item__inner">
+								<h3 class="works-item__title">SIMPLE SITE</h3>
+								<p class="works-item__desc">シンプルなサイト</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</section>
+		
+			<section class="col-lg-4 mt-3">
+				<a href="">
+					<div class="works-item">
+						<img src="../images/works_01.jpg" alt="画像の説明">
+						<div class="works-item__overlay">
+							<div class="works-item__inner">
+								<h3 class="works-item__title">カードのタイトル</h3>
+								<p class="works-item__desc">ここにカードの説明文が入ります</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</section>
+			
+			<section class="col-lg-4 mt-3">
+				<a href="">
+					<div class="works-item">
+						<img src="../images/works_01.jpg" alt="画像の説明">
+						<div class="works-item__overlay">
+							<div class="works-item__inner">
+								<h3 class="works-item__title">カードのタイトル</h3>
+								<p class="works-item__desc">ここにカードの説明文が入ります</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</section>
+			
+		</div><!-- .row -->
+		
+		<div class="row justify-content-center">
+
+			<section class="col-lg-4 mt-3">
+				<a href="">
+					<div class="works-item">
+						<img src="../images/works_01.jpg" alt="画像の説明">
+						<div class="works-item__overlay">
+							<div class="works-item__inner">
+								<h3 class="works-item__title">カードのタイトル</h3>
+								<p class="works-item__desc">ここにカードの説明文が入ります</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</section>
+			
+			<section class="col-lg-4 mt-3">
+				<a href="">
+					<div class="works-item">
+						<img src="../images/works_01.jpg" alt="画像の説明">
+						<div class="works-item__overlay">
+							<div class="works-item__inner">
+								<h3 class="works-item__title">カードのタイトル</h3>
+								<p class="works-item__desc">ここにカードの説明文が入ります</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</section>	
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+</section>
+
+
+
+<!------------------------------------------------
+	* 6. Service
+-------------------------------------------------->
+	
+
+
+<!------------------------------------------------
+	* 7. Price
+-------------------------------------------------->
+
+
+<!------------------------------------------------
+	* 8. Contact
+-------------------------------------------------->
+	
+
+
+<section id="contact" class="module">
+	<div class="container">
+
+		<div class="module__header">
+			<h2 class="module__title">Contact
+				<span>Contact</span>
+			</h2>
+			<div class="module__line"></div>
+			<p class="text-center">
+				お仕事のご相談、ご依頼などお気軽にお問い合わせください。
+			</p>
+		</div>
+
+		<form id="contact-form" action="mail.php" method="post">
+			<div class="form-group">
+				<label class="sr-only" for="name">Name</label>
+				<input type="text" id="name" class="form-control" name="name"" placeholder="name" required>
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="email">Email address</label>
+				<input type="email" id="email" class="form-control" name="mail" placeholder="e-mail" required>
+			</div>
+			<div class="form-group">
+				<textarea class="form-control" id="c_message" name="content" rows="7" placeholder="your message"
+					required></textarea>
+			</div>
+			<button type="submit" class="btn btn-block btn-custom-2">Send Message</button>
+		</form>
+		
+	</div><!-- .container -->
+</section>
+
+	</main>
+
+
+<!------------------------------------------------
+	* 9. Footer
+-------------------------------------------------->
+<footer>
+	<div class="container text-center">
+		<ul class="social-links d-flex justify-content-center list-unstyled">
+			<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+			<li><a href="https://twitter.com/Rin0277"><i class="fab fa-twitter"></i></a></li>
+		</ul>
+		<p>
+			<small lang="en">&copy; rin 2020.</small>
+		</p>
+	</div><!-- .container -->
+</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<!-- function.js -->
+	<!-- <script src="js/function.js"></script> -->
+	
+</body>
+
+</html>
